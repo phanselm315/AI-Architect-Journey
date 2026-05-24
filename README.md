@@ -1,0 +1,265 @@
+# Claude Architect Journey
+I design, build, and deploy real AI systems — production tools, automated workflows, and
+multi-agent pipelines — using the Claude API. This is the public record of how I got here.
+
+Inspired by [@cyrilXBT's roadmap](https://x.com/cyrilXBT). Tracked with real projects,
+milestones, and honest weekly notes.
+
+---
+
+## Who I Am
+CPA and problem solver. I run a one-man outsourced CFO/CCO advisory firm for emerging fund
+managers, serve as Treasurer for a nonprofit, stepped in as interim bookkeeper for a
+parish, and build trading systems on the side. I'm relentless about delivering for the
+people who depend on me — and I'm constitutionally incapable of leaving a broken process
+alone.
+
+The last time a technology hit me like this was 1998. Grade school. Our family got a
+computer and AOL for the first time. That same feeling — *the world just changed and I need
+to understand everything about it* — is exactly what happened when I started building
+seriously with Claude. Except now I know enough from my education and day job to actually build something useful.
+
+---
+
+## Why This Exists
+The gap between hobbyists and people earning real money with AI isn't intelligence — it's
+**architecture**: knowing how to design systems that are reliable, useful, and shippable.
+This is my public commitment to closing that gap.
+
+**Rules I'm following:**
+- Build every single week. No reading-only weeks.
+- Ship publicly. Every project gets a README and a demo.
+- Use Claude to build with Claude (yes, it's meta).
+
+---
+
+## Roadmap
+
+| Month | Focus                                                                       | Milestone                                                        | Status |
+|-------|-----------------------------------------------------------------------------|------------------------------------------------------------------|--------|
+| 1     | **Foundation** — Prompt engineering, first API calls, daily tools           | First working API script + system prompt library                 | ✅      |
+| 2     | **Master the API** — CLI tools, PDF automation, eval frameworks             | 3 production CLI tools in active use                             | ✅      |
+| 3     | **Tools & Agents** — Web scraping, external APIs, data pipelines            | Scraper-agent + parish bookkeeping system + fraud finder         | 🔄 ← Current (May 2026) |
+| 4     | **Real Products** — Apps used by real people in real life                   | Family Flow App + Wacker Advisors OS live                        | ⬜      |
+| 5     | **Advanced Architecture** — Multi-agent, ML training, trading systems       | 007 agent live paper run · Kalshi calibration study               | 🔄      |
+| 6     | **Reputation & Income** — Portfolio, outreach, first paid project           | First paid Claude build + public portfolio                       | ⬜      |
+
+> **Note:** Month 3 work includes early builds of roadmap Months 4 & 5 — Family Flow, Wacker Advisors OS, the 007 Trading Agent, Kalshi, and two portfolio-company value-creation agents are all running ahead of schedule.
+
+---
+
+## Project Index
+
+| #  | Project                         | Month | Description                                                                                                                    | Started      | Status    |
+|----|---------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------|--------------|-----------|
+| 01 | [Tax Prep with Claude](./projects/01-tax-prep-with-claude/)             | 1     | Used Claude alongside Free Tax USA to work through a full personal tax filing — first high-stakes real-world AI use            | Early 2026   | ✅ Done    |
+| 02 | [First API Call](./projects/02-first-api-call/)                         | 1     | Node.js script making a live Claude API call — the foundational proof of concept                                               | Mar 9, 2026  | ✅ Done    |
+| 03 | [Municipal Meeting Scanner](./projects/03-municipal-meeting-scanner/)   | 1–2   | Node.js + Playwright + Claude API: scrapes ~20 gov websites weekly, extracts housing/zoning items into a formatted HTML report  | Mar 9, 2026  | ✅ Done    |
+| 04 | [Business Prompt Library](./projects/04-business-prompt-library/)       | 1–2   | 6 production Claude skills: CFO/CCO advisory, SEC compliance, investment accounting, email drafting, website copy, resume       | Mar 2026     | ✅ Done    |
+| 05 | [Workforce Housing Analyzer](./projects/05-workforce-housing-analyzer/) | 2     | Iterative Excel + AI parcel analysis tool for Leelanau County land acquisition campaign (v3 → v102+)                           | Mar 2026     | 🔄 Active  |
+| 06 | [Kalshi Trading](./projects/06-kalshi-trading/)                         | 2–3   | Academic paper → trading bot → research finding: live paper-trading and a 1,274-market calibration study showed Kalshi's BTC binaries are well-calibrated with no directional edge — now writing up the result | Apr 2, 2026  | 🔄 Active  |
+| 07 | [Obsidian Second Brain](./projects/07-obsidian-second-brain/)           | 2     | Knowledge system using Obsidian + Web Clipper for research capture; dedicated Sunday writing practice; AI-assisted note-making  | Apr 13, 2026 | 🔄 Active  |
+| 08 | [Aether Advisors](./projects/08-aether-advisors/)                       | 2–3   | AI-powered marketing company build: AI image generation, marketing program design, brand strategy                               | Apr 23, 2026 | 🔄 Active  |
+| 09 | [Monthly Financials Builder](./projects/09-monthly-financials-builder/) | 2–3   | Python CLI: auto-assembles board financial package (cover page, donations PDF, expenses, bank statements) from QBO exports      | Apr 23, 2026 | ✅ Done    |
+| 10 | [Email Eval Framework](./projects/10-email-eval-framework/)             | 3     | HTML evaluation system for scoring AI-drafted community emails against strict brand voice rules                                 | Apr 2026     | ✅ Done    |
+| 11 | [Parish Bookkeeping System](./projects/11-parish-bookkeeping-system/)   | 3     | Documenting 30-year undocumented processes, automating QBO workflows for 2 churches + school + ministries, training new hire   | Apr 2026     | 🔄 Active  |
+| 12 | [Resume Builder Skill](./projects/12-resume-builder-skill/)             | 3     | Claude skill that ingests any job description and produces a tailored version of a formatted master resume with approved language | May 2, 2026  | ✅ Done    |
+| 13 | [Fraud Finder](./projects/13-fraud-finder/)                             | 3     | Public-data scraper + agent mapping links between Illinois politicians, newly formed LLCs, and state contract awards            | May 2, 2026  | 🔄 Active  |
+| 14 | [Claude Audit](./projects/14-claude-audit/)                             | 3     | Python script to audit and clean up a computer's file system using AI                                                          | May 7, 2026  | ✅ Done    |
+| 15 | [Family Flow App](./projects/15-family-flow-app/)                       | 3     | Personal app: shared calendar aggregation, grocery store hidden API integration (via Claude Code), financial dashboard, Plaid   | Mar 2026     | 🔄 Active  |
+| 16 | [Wacker Advisors OS](./projects/16-wacker-advisors-os/)                 | 3     | Full AI-powered operating system for a one-man outsourced CFO/CCO/COO firm — every workflow automated or AI-assisted           | Mar 2026     | 🔄 Active  |
+| 17 | [007 Trading Agent](./projects/17-007-trading-agent/)                   | 3–5   | Multi-agent equities trading system — a from-scratch clone of the "TradingAgents" framework: ~10 agents ingest data, debate the call, and clear it against an independent risk veto; ~20 hardening sprints in, live paper run begins May 26 | May 16, 2026 | 🔄 Active  |
+| 18 | [Grok Brain Export](./projects/18-grok-brain-export/)                   | 3     | Export and clean Grok AI outputs and conversation history for structured integration into Obsidian second brain                 | May 2026     | 🔄 Active  |
+| 19 | [Email Rip — Secret CFO](./projects/19-email-rip-secret-cfo/)           | 3     | Email content scraper and Claude analysis pipeline — extracting, categorizing, and synthesizing the Secret CFO newsletter archive | May 2026     | 🔄 Active  |
+| 20 | [Working Capital Agent](./projects/20-working-capital-agent/)           | 3–4   | Agentic accounts-receivable diagnostic + collections tool for PE portfolios: deterministic trapped-cash analysis, customer segmentation, Claude-drafted collection emails behind a human approval queue, and a fund-level treasury rollup | May 22, 2026 | 🔄 Active  |
+| 21 | [Freight Carrier Optimization Agent](./projects/21-freight-carrier-optimization-agent/) | 3–4 | Agent that re-prices a manufacturer's shipment history against live carrier rates, decomposes freight savings lever by lever, and rolls a single-portco EBITDA bridge up to a fund-level value-creation play | May 22, 2026 | 🔄 Active  |
+
+---
+
+## Weekly Log
+
+### Month 1: Foundation (Early–March 2026)
+
+**Tax Season (Early 2026)**
+First high-stakes Claude use: worked through a full personal tax filing using Free Tax USA
+with Claude as a co-pilot — looking up deductions, interpreting edge cases, checking my
+logic. Not a "project" in the traditional sense, but the experience that showed me Claude
+could handle real professional work, not just demos.
+
+**Week 1 (Mar 9)**
+Shipped the first API call — a six-line Node.js script that hit Claude Haiku and got a
+response. Confirmed the pipeline worked. Same session: started the Municipal Meeting Scanner.
+
+Built the Business Prompt Library — six production Claude skills: `pch-advisory` (CFO/COO
+advisory ops), `regpartner` (SEC private fund compliance), `invcogaap` (ASC 946 accounting),
+`sbgc-email` (community email drafting), `website-copy`, and `resume-builder`.
+
+Key lesson: a well-structured system prompt with hard rules and context files is 10x more
+useful than a generic prompt. Architecture matters here exactly like it does in code.
+
+---
+
+### Month 2: Master the API (March–April 2026)
+
+**Municipal Meeting Scanner (Mar 9–11)**
+Node.js + Playwright visiting ~20 local government websites, pulling agendas and minutes,
+sending content to Claude Haiku, and returning housing/zoning items with relevance scores
+into a formatted HTML report. First real production tool. First lesson in web scraping:
+government websites are messy, inconsistent, and slow.
+
+**Workforce Housing Analyzer (Mar → ongoing)**
+Leelanau County parcel workbook — now at v102. Each version adds AI-assisted analysis
+layers: ownership clustering, parcel size filtering, proximity scoring. First real
+experience with Claude as an iterative analytical partner on a live dataset. Also used
+Python to extract tax parcel data across Leelanau County, Michigan in minutes versus
+$2,500 from the County.
+
+**Kalshi Trading (Apr 2)**
+Started as an academic research paper, became a live trading bot on Kalshi — the regulated
+prediction market platform. The model is trained to find a signal edge on Bitcoin contracts
+and short-dated options. Currently in ML training.
+
+**Obsidian Second Brain (Apr 13)**
+Set up Obsidian with Web Clipper for capturing research, articles, and notes. Committed to
+writing every Sunday. AI-assisted note organization and synthesis.
+
+**Aether Advisors + Monthly Financials Builder (Apr 23)**
+Two projects launched the same day. Aether Advisors: building the AI infrastructure for
+my wife's marketing company — image generation, marketing program design, brand strategy.
+Monthly Financials Builder: Python CLI that takes raw QBO exports and assembles a complete
+board financial package with one command. Now used every month for a nonprofit I Treasurer.
+
+Key lesson: not every automation needs AI. This one is mostly deterministic — and that's
+the right call.
+
+**Email Eval Framework (Apr 2026)**
+HTML scoring system for reviewing AI-drafted community emails against SBGC's strict brand
+voice and terminology rules. First structured evaluation layer.
+
+---
+
+### Month 3: Tools & Agents (May 2026) — Current
+
+**Parish Bookkeeping System (Apr 2026)**
+Stepped in as interim bookkeeper for a parish — 2 churches, a school, and several
+ministries. The previous bookkeeper had 30 years of undocumented institutional knowledge.
+Now: documenting every process from scratch, integrating platforms with QuickBooks, moving
+paper workflows to digital, writing a proper training manual. Claude handles drafting,
+summarizing, and process design.
+
+**Resume Builder Skill (May 2)**
+After enough manual resume tailoring sessions, formalized it into a Claude skill. Feed it
+a job description, it produces a tailored version of my formatted master resume with
+pre-approved language pulled from past versions. Trained iteratively over many uses.
+
+**Fraud Finder (May 2)**
+Public-data scraper and relationship-mapping agent: pulling Illinois state contract data,
+entity registrations, and political contribution records, then using Claude to find
+suspicious connections between newly formed LLCs, contractors, and politicians. First
+serious agentic pipeline — search, parse, correlate, flag.
+
+**Claude Audit (May 7)**
+Python script to audit and clean up a computer's file system using AI — scans, categorizes,
+and surfaces what to keep, archive, or delete.
+
+**Family Flow App (started Mar, bulk of work May 2026) — Ahead of roadmap**
+Concept started in March, shipped the real features in late April/early May:
+- Shared calendar aggregation for the whole family
+- Grocery store integration — reverse-engineered hidden APIs using Claude Code to pull
+  weekly deals and inventory (no documentation; inferred structure from network requests)
+- Financial dashboard for household spending
+- Plaid integration in progress (connecting spouse's accounts)
+- Cash flow predictor on Supabase — model logic in progress
+
+The grocery API work was the hardest piece. Claude Code had to infer endpoint structure
+from browser network traffic and iterate until the wrappers held. Different level of work.
+Will add additional features based on user feedback (my wife).
+
+**Wacker Advisors OS (Mar 2026 → ongoing) — Ahead of roadmap**
+Full operating system for a one-man outsourced CFO/CCO/COO firm. Every workflow automated
+or AI-assisted: onboarding, compliance calendars, deliverable tracking, invoice generation,
+engagement letters, quarterly reports. Infrastructure is production-ready.
+
+**Kalshi Trading — The Edge Didn't Hold (May)**
+The model finished ML training and moved into live paper simulation — 55 settled trades
+over a week against a $1,000 bankroll. The verdict was decisive: a calibration study
+across 1,274 settled markets, independently confirmed by the live cohort, showed Kalshi's
+BTC daily binary markets are already well-calibrated (Brier 0.0032, skill score 0.98). A
+directional strategy has no detectable edge. That negative result is the real finding —
+the project is now back where it started, as a research write-up.
+
+**007 Trading Agent (May 16 → ongoing) — Ahead of roadmap**
+A multi-agent equities trading system — a from-scratch clone of the published
+"TradingAgents" framework. Roughly ten specialized agents ingest market data, argue
+opposite sides of every trade, size the position, and clear it against an independent
+risk veto. Roughly twenty hardening sprints in: walk-forward backtesting on the deflated
+Sharpe, an ablation harness and pandas baselines, and real Alpaca paper-trading
+integration. Next up is a multi-day live paper-trading week starting May 26 — the track
+record that becomes the project's research paper.
+
+**Grok Brain Export (May 2026)**
+Exporting and cleaning Grok AI conversation history and outputs for structured integration
+into the Obsidian second brain — turning raw AI interaction history into searchable,
+linked knowledge.
+
+**Email Rip — Secret CFO (May 2026)**
+Email content scraper and Claude analysis pipeline targeting the Secret CFO newsletter
+archive. Extracting, categorizing, and synthesizing content for reference and pattern
+analysis.
+
+**Working Capital Agent (May 22) — Ahead of roadmap**
+A portfolio-company value-creation demo: an agentic accounts-receivable diagnostic and
+collections tool for private-equity portfolios. Deterministic analysis finds where cash is
+trapped; Claude writes the board-ready narrative and drafts a tone-matched collection
+email for every past-due account; a human approval queue gates every send; a treasury
+rollup turns one company's win into a fund-level EBITDA and MOIC lift. All synthetic data,
+production-grade logic. Public on GitHub.
+
+**Freight Carrier Optimization Agent (May 22) — Ahead of roadmap**
+The sibling demo, applied to freight. Point it at a manufacturer's twelve-month shipment
+history; it re-prices every shipment against live carrier rates (EasyPost, Warp Freight),
+decomposes the savings lever by lever, and builds a board-ready EBITDA bridge — then runs
+the same play across a whole fund. Deterministic math, one narrow LLM step for the
+negotiation scorecard, a Streamlit app and a Jupyter walkthrough off a single codebase.
+Public on GitHub.
+
+---
+
+### Month 4: Real Products
+*Roadmap phase — work started early (see Month 3 above)*
+
+### Month 5: Advanced Architecture
+*Roadmap phase — work started early (see Month 3 above)*
+
+### Month 6: Reputation & Income
+*Not started*
+
+---
+
+## Resources
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Interactive Prompt Tutorial (GitHub)](https://github.com/anthropics/prompt-eng-interactive-tutorial)
+- [Getting Started with the API](https://docs.anthropic.com/en/docs/initial-setup)
+- [Tool Use Guide](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview)
+- [Anthropic Academy (Skilljar)](https://anthropic.skilljar.com)
+- [Building Effective Agents](https://docs.anthropic.com/en/docs/agents-and-tools/overview)
+
+---
+
+## Stack
+- **Languages:** JavaScript / Node.js · Python
+- **Models:** Claude Haiku (scraping/summarization) · Claude Sonnet (reasoning, drafting, agents)
+- **Key libraries:** `@anthropic-ai/sdk` · Playwright · ReportLab · pypdf · openpyxl · pandas · numpy · Pydantic
+- **Tools:** Obsidian + Web Clipper · Claude Code · Cowork · QuickBooks Online · Plaid · Supabase · Kalshi · Alpaca · Streamlit · Plotly · Jupyter
+
+---
+
+## About
+**Starting point:** Basic Python; no prior API or agent experience  
+**Domain:** Finance, compliance, private-equity value creation, nonprofit ops, household automation, and trading  
+**Goal:** 21 projects across 6 months. Document the journey publicly. Build a portfolio
+that shows what's possible when you use Claude as an actual engineering partner, not a chatbot.
+
+---
+
+*Started: March 1, 2026 · Updated: May 23, 2026*
