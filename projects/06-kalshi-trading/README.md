@@ -1,6 +1,6 @@
 # Kalshi Trading
 
-**Status:** 🔄 Active — research write-up  
+**Status:** ✅ Done — paper published on SSRN (June 2026)  
 **Started:** Apr 2, 2026  
 
 ## What This Is
@@ -10,8 +10,8 @@ live trading bot on Kalshi — the regulated US prediction market — and has no
 circle back to research. The bot was built to find a directional edge on Kalshi's Bitcoin
 daily binary contracts. Both a live paper-trading run and a calibration study across 1,274
 settled markets reached the same verdict: the market is already well-calibrated, and a
-directional strategy has no detectable edge. That negative result is the finding — and
-writing it up rigorously is the current phase.
+directional strategy has no detectable edge. That negative result is the finding — now
+written up and published.
 
 ## The Arc
 
@@ -22,7 +22,7 @@ writing it up rigorously is the current phase.
 4. **Live paper simulation** — 55 settled paper trades over a week against a $1,000 bankroll
 5. **Calibration study** — market mid-price at T-24h scored against realized outcomes
    across 1,274 settled markets
-6. **Research write-up** — documenting the finding (current phase)
+6. **Research write-up** — published June 2026 (see Publication below)
 
 ## What the Data Showed
 
@@ -45,6 +45,17 @@ working, not failing.
 **Publish the negative result.** A directional model that can't beat a calibrated market
 is a real, publishable finding. The discipline is reporting it honestly instead of
 overfitting until a backtest looks good.
+
+## Publication
+
+The write-up is published on SSRN (June 2026):
+
+> **"Are Bitcoin Daily Binary Prediction Markets Efficient? Calibration Evidence from
+> 1,274 Settled Kalshi Contracts and a Live Out-of-Sample Trading Experiment"**
+> — [ssrn.com/abstract=6891438](https://ssrn.com/abstract=6891438)
+
+Full circle: the project that started as an academic research question ends as an
+academic paper — with a live trading bot in the middle proving the answer.
 
 ## Lessons Learned
 

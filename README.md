@@ -55,7 +55,7 @@ This is my public commitment to closing that gap.
 | 03 | [Municipal Meeting Scanner](./projects/03-municipal-meeting-scanner/)   | 1–2   | Node.js + Playwright + Claude API: scrapes ~20 gov websites weekly, extracts housing/zoning items into a formatted HTML report  | Mar 9, 2026  | ✅ Done    |
 | 04 | [Business Prompt Library](./projects/04-business-prompt-library/)       | 1–2   | 6 production Claude skills: CFO/CCO advisory, SEC compliance, investment accounting, email drafting, website copy, resume       | Mar 2026     | ✅ Done    |
 | 05 | [Workforce Housing Analyzer](./projects/05-workforce-housing-analyzer/) | 2     | Iterative Excel + AI parcel analysis tool for Leelanau County land acquisition campaign (v3 → v102+)                           | Mar 2026     | 🔄 Active  |
-| 06 | [Kalshi Trading](./projects/06-kalshi-trading/)                         | 2–3   | Academic paper → trading bot → research finding: live paper-trading and a 1,274-market calibration study showed Kalshi's BTC binaries are well-calibrated with no directional edge — now writing up the result | Apr 2, 2026  | 🔄 Active  |
+| 06 | [Kalshi Trading](./projects/06-kalshi-trading/)                         | 2–3   | Academic paper → trading bot → research finding: live paper-trading and a 1,274-market calibration study showed Kalshi's BTC binaries are well-calibrated with no directional edge — result published on SSRN (June 2026) | Apr 2, 2026  | ✅ Done    |
 | 07 | [Obsidian Second Brain](./projects/07-obsidian-second-brain/)           | 2–3   | Knowledge system on Obsidian — now a working synthesis engine: standardized capture templates (Web Clipper, YouTube transcripts) feed Claude-assisted synthesized writing and densely linked maps of content | Apr 13, 2026 | 🔄 Active  |
 | 08 | [Aether Advisors](./projects/08-aether-advisors/)                       | 2–3   | AI-powered marketing company build: AI image generation, marketing program design, brand strategy                               | Apr 23, 2026 | 🔄 Active  |
 | 09 | [Monthly Financials Builder](./projects/09-monthly-financials-builder/) | 2–3   | Python CLI: auto-assembles board financial package (cover page, donations PDF, expenses, bank statements) from QBO exports      | Apr 23, 2026 | ✅ Done    |
@@ -308,6 +308,14 @@ A full pass across the open board:
   track is now the vault's fastest-growing area.
 - **Grok Brain Export (18)** and **Email Rip — Secret CFO (19)** — both complete; marked
   ✅ Done.
+
+**Kalshi Trading — Published (Jun 6)**
+The negative result became a paper: *"Are Bitcoin Daily Binary Prediction Markets
+Efficient? Calibration Evidence from 1,274 Settled Kalshi Contracts and a Live
+Out-of-Sample Trading Experiment"* — now on
+[SSRN](https://ssrn.com/abstract=6891438). The project that started April 2 as an
+academic question, became a live trading bot, and found no edge, closes as a published
+research finding. Project 06 marked ✅ Done.
 
 ### Month 5: Advanced Architecture
 *Roadmap phase — work started early (see Month 3 above)*
