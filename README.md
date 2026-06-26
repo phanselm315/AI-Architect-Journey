@@ -71,9 +71,10 @@ context store that gets richer every cycle instead of sitting still. Three thing
 betting on: the unit of work has climbed from the prompt to a designed portfolio of loops,
 and the scarce skill is now designing and tuning them, not running them; the moat isn't
 intelligence but the compounding context and judgment you've encoded into the system — the
-part that doesn't commoditize when the model does; and proof is the product — "done isn't
-done" until the output is provable, not merely plausible, which is the entire reason Forge
-exists. Put it together and the people who win this next phase are the ones who can turn
+part that doesn't commoditize when the model does; and proof is the product — you stop
+trusting the agent and start trusting the environment around it, building the verification
+so failure is hard and the quality floor only ratchets up; "done isn't done" until the
+output is provable, not merely plausible. That's the entire reason Forge exists. Put it together and the people who win this next phase are the ones who can turn
 their own expertise into a system that runs without them — and prove it was right. That's the
 bet the whole portfolio is built on, and where I think everything is going.
 
@@ -338,6 +339,4 @@ A full pass across the open board:
 - **Forge (26)**: mid-build; first working demo targeted for June 8.
 - **007 Trading Agent (17)**: the live paper run that started May 26 is still going,
   extended past the original five-session plan to build a longer record.
-- **Taste Interview (25)**: completed June 7, 2026. All 100 questions, output saved to the
-  Obsidian vault. Checkpointing did its job.
-- **Twitter Stock Research (24)**
+- **Taste In
