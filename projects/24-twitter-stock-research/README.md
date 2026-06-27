@@ -40,8 +40,9 @@ Four moving pieces, three of them fully unattended:
   track: where the crowd and the street agree, disagree, or haven't noticed each other yet.
   Latest pass (June 25): added more tickers and started measuring returns by sector —
   watch-list sectors against everything else — to see where the bookmarked crowd is
-  actually clustered versus where the performance is. Expanding that analysis is the next
-  step.
+  actually clustered versus where the performance is. Since then the watch list has kept
+  growing as bookmarks accumulate; expanding the sector analysis on the larger set is the
+  next step.
 
 ## Key Decisions
 
@@ -67,4 +68,8 @@ FMP's documented coverage and its actual free-tier allowlist are two different t
 Neither showed up in testing; both showed up in the schedule.
 
 The frontmatter decision paid for itself. Putting `tickers` and `date_seen` on every note
-from day one is what made 
+from day one is what made the price tracker possible later without re-touching a single
+note.
+
+Builds on the [Obsidian Second Brain](../07-obsidian-second-brain/) (Project 07) — same
+vault, same cap

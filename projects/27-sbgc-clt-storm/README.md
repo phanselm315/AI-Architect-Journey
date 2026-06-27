@@ -48,4 +48,4 @@ and compare.
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

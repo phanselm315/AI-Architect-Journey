@@ -70,4 +70,4 @@ informational edge, not a better curve fit.
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

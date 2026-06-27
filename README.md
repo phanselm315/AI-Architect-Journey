@@ -1,6 +1,7 @@
-# Claude Architect Journey
+# AI Architect Journey
 I design, build, and deploy AI systems (production tools, automated workflows, and
-multi-agent pipelines) using the Claude API. This is the public record of how I got here.
+multi-agent pipelines) — primarily on the Claude API, and increasingly multi-model. This
+is the public record of how I got here.
 
 Inspired by [@cyrilXBT's roadmap](https://x.com/cyrilXBT). Tracked with projects,
 milestones, and weekly notes.
@@ -339,4 +340,80 @@ A full pass across the open board:
 - **Forge (26)**: mid-build; first working demo targeted for June 8.
 - **007 Trading Agent (17)**: the live paper run that started May 26 is still going,
   extended past the original five-session plan to build a longer record.
-- **Taste In
+- **Taste Interview (25)**: completed June 7, 2026. All 100 questions, output saved to the
+  Obsidian vault. Checkpointing did its job.
+- **Twitter Stock Research (24)**: new trend-analysis layer: crossing crowdsourced
+  conviction from X against bulge-bracket sell-side research (via Schwab) in the vault's
+  Stock Research track.
+- **Wacker Advisors OS (16)**: firm repositioned May 28 as an AI-native fractional
+  CFO + CCO practice across four client profiles; v2 website shell built June 1.
+  Publishing is the gate to first-client outreach.
+- **Parish Bookkeeping (11)**: the parish hired a full-time bookkeeper; handoff ran on
+  a summary package built from the Claude-drafted documentation.
+- **Obsidian Second Brain (07)**: synthesis volume still climbing; the Stock Research
+  track is now the vault's fastest-growing area.
+- **Grok Brain Export (18)**: complete; marked ✅ Done.
+
+**Kalshi Trading: Published (Jun 6)**
+The negative result became a paper: *"Are Bitcoin Daily Binary Prediction Markets
+Efficient? Calibration Evidence from 1,274 Settled Kalshi Contracts and a Live
+Out-of-Sample Trading Experiment"*, now on
+[SSRN](https://ssrn.com/abstract=6891438). The project that started April 2 as an
+academic question, became a live trading bot, and found no edge, closes as a published
+research finding. Project 06 marked ✅ Done.
+
+**Status sweep (Jun 23)**
+- **Forge (26)**: the demo I targeted for June 8 landed, and the build kept going. Since
+  then: a distribution-waterfall engine, statement renderers, and ASC 946 financial
+  statements (Statement of Assets & Liabilities, Operations, Schedule of Investments,
+  Financial Highlights) generated from the FactSet, plus `verify-reproducibility` proving
+  each fund's signed log replays byte-for-byte against its attestation. ~140 tests green.
+  Next up is the valuation-judgment wedge. Full write-up on the project page.
+
+**Status sweep (Jun 25)**
+- **Forge (26)**: core is published and at rest — `main` equals `origin/main`, CI green,
+  and all five fund anchors replay byte-identical. Recent sessions closed backlog cleanly
+  rather than opening new ground: LP self-service (own class economics + a quarterly LP
+  report), a real web-build gate in CI, toolchain bumps, and a Next.js security patch.
+  Next, deferred to its own checkpointed session, is byte-exact seed surgery to fold a
+  fund's reapply step into the seed. Strategic frame now explicit: Forge is the
+  reproducible layer-1 of a three-layer "company brain," sold to GPs through Wacker, with
+  pricing tied to provable correctness.
+- **Twitter Stock Research (24)**: added more tickers and began measuring returns by
+  sector — watch-list sectors against everything else — to see where the bookmarked crowd
+  clusters versus where performance actually is. Expanding the analysis next.
+- **SBGC CLT — STORM (27, new)**: tested STORM and Co-STORM over a built corpus to review
+  a community group's community-land-trust research. First run underdelivered — I anchored
+  the synthesis on a single referenced doc, which narrowed and biased the output away from
+  what the multi-perspective method is for. Logged as a useful negative result; rebuild is
+  to feed a broader, balanced corpus and re-run both passes.
+
+**Status sweep (Jun 27)**
+- **Repo rebranded → "AI Architect Journey."** The work has gone multi-model — Grok for the
+  trading-agent and brain-export tracks, with local/open models (Ollama, Kimi) being added —
+  so the name and the Tools Used section now reflect that, with Claude still predominant.
+- **Forge (26)**: the deferred byte-exact seed surgery shipped (Jun 26) — a clean `make demo`
+  now natively emits a fund's canonical 141-event log with **zero event bytes changed**, and
+  the dead reapply path is retired. The one-way door went through without breaking
+  byte-identity. Now in progress: attesting per-class LP economics, which meant re-baselining
+  the seed and re-pinning anchors; suite is ~580 tests, adversarial skeptic 7/7 green, paused
+  at a checkpoint awaiting my merge go. A reseed checkpoint hit a hard stop on a misread the
+  skeptic caught — the gate working as designed.
+- **Wacker Advisors OS (16)**: now running on live consultancy work rather than waiting in
+  the wings; website launch impending.
+- **Twitter Stock Research (24)**: watch list keeps growing as bookmarks accumulate;
+  expanding the sector-return analysis on the larger set is next.
+
+### Month 5: Advanced Architecture
+*Roadmap phase. Work started early (see Month 3 above).*
+
+### Month 6: Reputation & Income
+*Not started*
+
+---
+
+## Resources
+- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Interactive Prompt Tutorial (GitHub)](https://github.com/anthropics/prompt-eng-interactive-tutorial)
+- [Getting Started with the API](https://docs.anthropic.com/en/docs/initial-setup)
+- [Tool Use 

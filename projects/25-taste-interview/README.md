@@ -54,4 +54,4 @@ up cost nothing. Final compilation of the profile is the remaining work.
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

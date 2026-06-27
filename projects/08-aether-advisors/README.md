@@ -35,3 +35,11 @@ treat as optional. Building this in from the start rather than retrofitting late
 Building for someone you know and care about is a different kind of accountability than
 building for a client. There's nowhere to hide when the end user is sitting across from
 you at dinner. This project gets better faster because the feedback loop is immediate
+and honest.
+
+AI image generation has matured to the point where the bottleneck is now prompt quality
+and workflow design — not the models themselves.
+
+---
+
+*Part of the [AI Architect Journey](../../README.md)*

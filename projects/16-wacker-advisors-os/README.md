@@ -56,8 +56,11 @@ alerts and is the first thing built for every new client engagement.
 Repositioned May 28, 2026: the firm is now an AI-native fractional CFO + CCO practice
 serving four client profiles — emerging fund managers and family offices, independent
 sponsors and search funds, PE/VC portfolio companies, and owner-operated private
-businesses. The v2 website shell reflecting the new positioning was built June 1;
-publishing it is the gate to first-client outreach (target July 2026).
+businesses. The v2 website shell reflecting the new positioning was built June 1.
+
+As of late June, the OS is no longer just infrastructure-in-waiting — I'm running it on
+live consultancy work, with the website launch impending. The system is proving itself on
+real engagements rather than rehearsals.
 
 ## Lessons Learned
 
@@ -66,9 +69,4 @@ work product. Well-structured systems mean each additional client adds less marg
 time than the last. Poorly structured systems mean each client adds a full linear load.
 
 Building the skills first, before client pressure created shortcuts, produced a
-significantly better result. The discipline to build the right foundation before
-generating revenue is the difference between a practice that compounds and a busy job.
-
----
-
-*Part of the [Claude Architect Journey](../../README.md)*
+significantly better result. The discipline to build the right foundation bef

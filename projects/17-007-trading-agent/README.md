@@ -75,4 +75,9 @@ layer rather than treat the pipeline as "fixed."
 A guardrail that lives only in an agent's reasoning is invisible to the next reader.
 Promote it into code, and into the artifact itself, so the caveat travels with the result.
 
-The first real broker interaction surface
+The first real broker interaction surfaces breakage no test reached. Verify against the
+real adapter, not just an in-house stand-in.
+
+---
+
+*Part of the [AI Architect Journey](../../README.md)*

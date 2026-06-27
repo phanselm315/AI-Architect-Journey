@@ -53,4 +53,4 @@ willing to write the extraction layer.
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

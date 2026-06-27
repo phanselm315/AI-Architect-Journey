@@ -48,4 +48,4 @@ ambiguous or contradictory — and those got resolved before they became recurri
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

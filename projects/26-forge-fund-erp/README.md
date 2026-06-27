@@ -1,6 +1,6 @@
 # Forge — AI-Native Fund Accounting ERP
 
-**Status:** 🔄 Active — core published and at rest; all funds reproduce byte-identical  
+**Status:** 🔄 Active — core published, byte-identical reproduction; per-class LP economics attestation in progress  
 **Started:** June 3, 2026  
 **Code:** Private build — details deliberately high-level here  
 
@@ -74,8 +74,37 @@ of truth, Postgres is a rebuildable projection cache, every event is Ed25519-sig
 hash-chained, and `forge verify-reproducibility` checks the attestations — running locally
 via Docker Compose.
 
-Next (scoped, not started): folding a fund's reapply step into the seed so a clean run
-natively emits the canonical event log, byte-identical to its anchor. It's flagged as
-anchor-sensitive, byte-exact seed surgery and deliberately deferred to its own dedicated
-session with a checkpoint plan and a hard stop if byte-identity proves infeasible — a
-one-way door, tr
+**The one-way door went through (Jun 26).** The byte-exact seed surgery I'd deferred —
+folding a fund's reapply step into the seed so a clean `make demo` natively emits its
+canonical 141-event log — shipped cleanly. The standalone reapply path is retired and
+**zero event bytes changed** against the prior live log; published, both CI jobs green,
+briefly back at rest. The step treated like a one-way door went through without breaking
+byte-identity.
+
+**Now: per-class LP economics, attested (Jun 26–27, in progress).** Extending the
+attestation layer so each share class's economics are provable, which meant re-baselining
+the seed and re-pinning the registry and fund anchors. The suite is now ~580 tests with
+the adversarial "skeptic" reviewers 7/7 green; the work is paused at a checkpoint awaiting
+my go to merge. One honest note from the run: a reseed checkpoint hit a hard stop on a
+misread — a fund re-pin that looked like a bug turned out to be expected registry coupling,
+and the skeptic caught the misread before it became a "fix." The gated stop did exactly
+what it's there for.
+
+## Key Decisions
+
+**Domain expert in the loop, on the record.** Claude drafts the accounting logic; I
+correct it as the CPA — and the corrections get logged, not just applied. The marketplace
+scan found no existing Claude skill or tool that does fund accounting at all. That gap is
+the opportunity.
+
+**Gates, not momentum.** Big phases get subdivided rather than rushed at the end of a long
+context window, and irreversible steps get their own focused, pre-planned sessions.
+
+**Honesty as a feature.** After the adversarial review, demo claims that the code couldn't
+back were treated as bugs of the highest severity.
+
+**The strategic frame.** Forge is the reproducible layer-1 of what I think of as a
+three-layer "company brain." The buyer is a GP, reached through Wacker Advisors acting as
+an outsourced operational CFO; the thesis is that *reproducible-for-anyone* collapses
+audit and compliance cost toward zero, with pricing tied to provable correctness rather
+than hours. The end state is real-time continuous reconciliation — 

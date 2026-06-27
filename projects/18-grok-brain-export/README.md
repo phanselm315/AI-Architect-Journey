@@ -42,4 +42,4 @@ in this pipeline does more to improve vault quality than any organizational syst
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*

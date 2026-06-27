@@ -58,4 +58,4 @@ barrier has always been the time required to cross-reference it. That barrier is
 
 ---
 
-*Part of the [Claude Architect Journey](../../README.md)*
+*Part of the [AI Architect Journey](../../README.md)*
