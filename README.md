@@ -62,6 +62,14 @@ compounded. Over six months my unit of work kept moving up a level of abstractio
 6. **Into loops of loops.** Where the AI-native ERP build (Forge) actually lives — nested
    loops where the *process* of building is itself an orchestrated system, not a person
    running a checklist.
+7. **Into a factory.** The loops-of-loops extracted from a single build and made a reusable
+   system — [Sass Factory](./projects/28-sass-factory/) (Project 28). Sandboxed agents
+   spawned at a repo, watched live, with every change gated at the merge boundary:
+   deterministic checks plus an adversarial reviewer that votes merge or block, so nothing
+   ships unchecked. It now advances its own backlog with no human shuttling prompts between
+   sessions. The build process stopped being something I run and became something I *own*:
+   a factory that builds, reviews, tests, and ships software end to end — and is currently
+   building itself.
 
 The shift that ties it together: I've stopped being the loop *operator* and become the loop
 *designer*. The job isn't to run loops faster — it's to decide which loops exist, what each
@@ -69,11 +77,14 @@ one is for, and how they hand off; then to monitor them as they run and tweak th
 drift; and to keep the context they run against clean enough that each run leaves the next
 one better. A planned portfolio of loops I design, watch, and tune — not a bag of tricks.
 
-The next move is the meta one: take every lesson from the Forge build and from my own
-machine setup, synthesize them, and stand up a reusable **AI engineering team** in Claude
-Code — then point it at the next project. Lessons stop being trapped inside one build and
-start compounding across all of them. That's the whole thesis: not "I used AI to build a
-thing," but "I built the system that builds the things, and it gets better every cycle."
+That meta move is no longer aspirational — it's built. The reusable **AI engineering team**
+is **Sass Factory**: every lesson from the Forge build and from my own machine setup,
+synthesized into a gated, self-advancing software factory. It's already dogfooding —
+building its own backlog through its own control plane and gate chain — and the next move is
+simply pointing it at the next product. Lessons stopped being trapped inside one build and
+started compounding across all of them. That was always the thesis: not "I used AI to build
+a thing," but "I built the system that builds the things, and it gets better every cycle."
+Now it exists.
 
 ### Where This Is Headed
 
@@ -155,6 +166,7 @@ The full chronological list — every build, in order, kept for transparency.
 | 25 | [Taste Interview: Voice Profile](./projects/25-taste-interview/)          | 3–4   | 100-question Claude-conducted interview extracting my personal writing voice into a profile any AI writing task can load. Checkpointed, hard-rule tagged, drafting exercises included | May 28, 2026 | ✅ Done    |
 | 26 | [Forge: AI-Native Fund Accounting ERP](./projects/26-forge-fund-erp/)     | 4–5   | From-scratch AI-native fund administration platform: audit-grade, replayable accounting core built via a two-tier Claude workflow (architect sessions → gated Claude Code phases → adversarial multi-agent review) | Jun 3, 2026  | 🔄 Active  |
 | 27 | [SBGC CLT — STORM Research Synthesis](./projects/27-sbgc-clt-storm/)       | 3–4   | Test of Stanford's STORM / Co-STORM multi-perspective article generation over a built corpus, used to review a community group's community-land-trust research. First run underdelivered — anchoring on one source doc narrowed the synthesis; rebuild planned | Jun 2026     | 🔄 Active  |
+| 28 | [Sass Factory](./projects/28-sass-factory/)                              | 5     | Gated software factory: spawns sandboxed coding agents at a repo, streams their work live, and gates every change at the merge boundary (deterministic `check-all` + an adversarial review agent that votes merge/block) so nothing ships unchecked. Self-advancing — it now builds its own backlog. The Arc's "loops of loops" generalized into a reusable system | Jun 25, 2026 | 🔄 Active  |
 
 ### PortCo Value Creation Agents
 
@@ -383,26 +395,4 @@ A full pass across the open board:
   Publishing is the gate to first-client outreach.
 - **Parish Bookkeeping (11)**: the parish hired a full-time bookkeeper; handoff ran on
   a summary package built from the Claude-drafted documentation.
-- **Obsidian Second Brain (07)**: synthesis volume still climbing; the Stock Research
-  track is now the vault's fastest-growing area.
-- **Grok Brain Export (18)**: complete; marked ✅ Done.
-
-**Kalshi Trading: Published (Jun 6)**
-The negative result became a paper: *"Are Bitcoin Daily Binary Prediction Markets
-Efficient? Calibration Evidence from 1,274 Settled Kalshi Contracts and a Live
-Out-of-Sample Trading Experiment"*, now on
-[SSRN](https://ssrn.com/abstract=6891438). The project that started April 2 as an
-academic question, became a live trading bot, and found no edge, closes as a published
-research finding. Project 06 marked ✅ Done.
-
-**Status sweep (Jun 23)**
-- **Forge (26)**: the demo I targeted for June 8 landed, and the build kept going. Since
-  then: a distribution-waterfall engine, statement renderers, and ASC 946 financial
-  statements (Statement of Assets & Liabilities, Operations, Schedule of Investments,
-  Financial Highlights) generated from the FactSet, plus `verify-reproducibility` proving
-  each fund's signed log replays byte-for-byte against its attestation. ~140 tests green.
-  Next up is the valuation-judgment wedge. Full write-up on the project page.
-
-**Status sweep (Jun 25)**
-- **Forge (26)**: core is published and at rest — `main` equals `origin/main`, CI green,
-  and all five fund anchors replay byte-identical. Recent sessions closed
+- **Obsidian Second Brain (07)**: synthesis volume
