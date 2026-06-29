@@ -109,6 +109,21 @@ full chronological index follows below.
 | [Monthly Financials Builder](./projects/09-monthly-financials-builder/) | Python CLI that assembles the full monthly board financial package — cover page, donations, expenses, bank statements — from raw QuickBooks Online exports in one command. In monthly use for a nonprofit board. |
 | [Parish Bookkeeping System](./projects/11-parish-bookkeeping-system/) | Documented 30 years of undocumented month-end process and automated QuickBooks Online workflows across multiple entities — two churches, a school, and ministries. |
 
+### PortCo Value Creation Agents
+
+Four agents shipped as one body of work (May 2026): a private-equity portfolio-company
+value-creation suite. Each runs a deterministic diagnostic on one operational lever, uses
+Claude for the judgment layer, and rolls a single-portco win up to a fund-level EBITDA
+bridge (MOIC in the inventory agent). On synthetic data with production-style logic; most
+are public on GitHub.
+
+| #  | Project                         | Month | Description                                                                                                                    | Started      |
+|----|---------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 20 | [Working Capital Agent](./projects/20-working-capital-agent/)           | 3–4   | Agentic accounts-receivable diagnostic + collections tool for PE portfolios: deterministic trapped-cash analysis, customer segmentation, Claude-drafted collection emails behind a human approval queue, and a fund-level treasury rollup | May 22, 2026 |
+| 21 | [Freight Carrier Optimization Agent](./projects/21-freight-carrier-optimization-agent/) | 3–4 | Agent that re-prices a manufacturer's shipment history against live carrier rates, decomposes freight savings lever by lever, and rolls a single-portco EBITDA bridge up to a fund-level value-creation play | May 22, 2026 |
+| 22 | [Inventory Intelligence Agent](./projects/22-inventory-intelligence-agent/) | 3–4 | Agent that segments a distributor's catalog by ABC × XYZ, sizes variability-driven safety stock and EOQ cycle stock, surfaces dead SKUs and the long tail, and rolls a single-portco working-capital release up to a fund-wide √N pooling play | May 2026     |
+| 23 | [Procurement Spend Intelligence Agent](./projects/23-procurement-spend-intelligence-agent/) | 3–4 | Agent that cleans the vendor master, classifies spend by category, surfaces tail / maverick / concentration risk, and rolls per-portco procurement savings up to a fund-wide negotiation playbook | May 2026     |
+
 ---
 
 ## Project Index
@@ -140,21 +155,6 @@ The full chronological list — every build, in order, kept for transparency.
 | 27 | [SBGC CLT — STORM Research Synthesis](./projects/27-sbgc-clt-storm/)       | 3–4   | Test of Stanford's STORM / Co-STORM multi-perspective article generation over a built corpus, used to review a community group's community-land-trust research. First run underdelivered — anchoring on one source doc narrowed the synthesis; rebuild planned | Jun 2026     |
 | 28 | [Sass Factory](./projects/28-sass-factory/)                              | 5     | Gated software factory: spawns coding agents in isolated git clones, streams their work live, and gates every change at the merge boundary (deterministic `check-all` + an adversarial review agent that votes merge/block), proposing merges as PRs so nothing merges unchecked. Self-advancing — it drives its own (human-defined) backlog through its gates. The gated build-loop pattern generalized into a reusable system | Jun 25, 2026 |
 | 29 | [Content Factory](./projects/29-content-factory/)                        | 4     | Faceless short-form video engine: a five-role pipeline (Orchestrator → Trend Scout → Format Architect → Production Line → Evaluator) with a separate six-agent red-team review, producing a small portfolio of niche accounts, governed by a scorecard locked before any data exists and a weekly kill cycle with binding keep/kill gates. Affiliate-first. Early stage — scaffold built, nothing live yet | Jun 7, 2026  |
-
-### PortCo Value Creation Agents
-
-Four agents shipped as one body of work (May 2026): a private-equity portfolio-company
-value-creation suite. Each runs a deterministic diagnostic on one operational lever, uses
-Claude for the judgment layer, and rolls a single-portco win up to a fund-level EBITDA
-bridge (MOIC in the inventory agent). On synthetic data with production-style logic; most
-are public on GitHub.
-
-| #  | Project                         | Month | Description                                                                                                                    | Started      |
-|----|---------------------------------|-------|--------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 20 | [Working Capital Agent](./projects/20-working-capital-agent/)           | 3–4   | Agentic accounts-receivable diagnostic + collections tool for PE portfolios: deterministic trapped-cash analysis, customer segmentation, Claude-drafted collection emails behind a human approval queue, and a fund-level treasury rollup | May 22, 2026 |
-| 21 | [Freight Carrier Optimization Agent](./projects/21-freight-carrier-optimization-agent/) | 3–4 | Agent that re-prices a manufacturer's shipment history against live carrier rates, decomposes freight savings lever by lever, and rolls a single-portco EBITDA bridge up to a fund-level value-creation play | May 22, 2026 |
-| 22 | [Inventory Intelligence Agent](./projects/22-inventory-intelligence-agent/) | 3–4 | Agent that segments a distributor's catalog by ABC × XYZ, sizes variability-driven safety stock and EOQ cycle stock, surfaces dead SKUs and the long tail, and rolls a single-portco working-capital release up to a fund-wide √N pooling play | May 2026     |
-| 23 | [Procurement Spend Intelligence Agent](./projects/23-procurement-spend-intelligence-agent/) | 3–4 | Agent that cleans the vendor master, classifies spend by category, surfaces tail / maverick / concentration risk, and rolls per-portco procurement savings up to a fund-wide negotiation playbook | May 2026     |
 
 ---
 
