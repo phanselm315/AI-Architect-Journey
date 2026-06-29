@@ -31,16 +31,6 @@ as an actual engineering partner, not a chatbot. Document the work publicly.
 
 ---
 
-## Why This Exists
-The gap between hobbyists and people earning income from AI is architecture: how to design systems that are reliable, useful, and shippable. This is my public commitment to closing that gap.
-
-**Rules I'm following:**
-- Build every single week. No reading-only weeks.
-- Ship publicly. Every project gets a README and a demo.
-- Use Claude to build with Claude.
-
----
-
 ## How My Workflow Has Changed
 
 My workflow has shifted as I've tried to make AI do real work instead of just generating
@@ -84,7 +74,7 @@ I'm just documenting what the work has actually felt like on the ground.
 | 3     | **Tools & Agents**: web scraping, external APIs, data pipelines             | Scraper-agent + parish bookkeeping system         |
 | 4     | **Real Products** *(current — June 2026)*: apps used by real people in real life                    | Family Flow App + Wacker Advisors OS + four-agent PE value-creation suite + Forge fund-accounting ERP |
 | 5     | **Advanced Architecture**: multi-agent, ML training, trading systems        | 007 paper-trading run · Kalshi calibration study               |
-| 6     | **Reputation & Income**: portfolio, outreach, first paid project            | First paid Claude build + public portfolio                       |
+| 6     | **Deploy & Apply**: put the toolkit to work on real engagements            | Ready to deploy these capabilities for portfolio companies and funds — as an advisor or in a finance-transformation role                       |
 
 > **Note:** Month 3 work includes early builds of roadmap Months 4 & 5. Family Flow, Wacker Advisors OS, the 007 Trading Agent, Kalshi, and a four-agent portfolio-company value-creation suite are all running ahead of schedule.
 
@@ -124,7 +114,7 @@ are public on GitHub.
 
 ---
 
-## Project Index
+## Full Project Index
 
 The full chronological list — every build, in order, kept for transparency.
 
