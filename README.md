@@ -83,7 +83,7 @@ I'm just documenting what the work has actually felt like on the ground.
 |-------|-----------------------------------------------------------------------------|------------------------------------------------------------------|
 | 1     | **Foundation**: prompt engineering, first API calls, daily tools            | First working API script + system prompt library                 |
 | 2     | **Master the API**: CLI tools, PDF automation, eval frameworks              | 3 production CLI tools in active use                             |
-| 3     | **Tools & Agents**: web scraping, external APIs, data pipelines             | Scraper-agent + parish bookkeeping system + fraud finder         |
+| 3     | **Tools & Agents**: web scraping, external APIs, data pipelines             | Scraper-agent + parish bookkeeping system         |
 | 4     | **Real Products** *(current — June 2026)*: apps used by real people in real life                    | Family Flow App + Wacker Advisors OS + four-agent PE value-creation suite + Forge fund-accounting ERP |
 | 5     | **Advanced Architecture**: multi-agent, ML training, trading systems        | 007 paper-trading run · Kalshi calibration study               |
 | 6     | **Reputation & Income**: portfolio, outreach, first paid project            | First paid Claude build + public portfolio                       |
@@ -129,7 +129,6 @@ The full chronological list — every build, in order, kept for transparency.
 | 10 | [Email Eval Framework](./projects/10-email-eval-framework/)             | 3     | HTML evaluation system for scoring AI-drafted community emails against strict brand voice rules                                 | Apr 2026     |
 | 11 | [Parish Bookkeeping System](./projects/11-parish-bookkeeping-system/)   | 3     | Documenting 30-year undocumented processes, automating QBO workflows for 2 churches + school + ministries, training new hire   | Apr 2026     |
 | 12 | [Resume Builder Skill](./projects/12-resume-builder-skill/)             | 3     | Claude skill that ingests any job description and produces a tailored version of a formatted master resume with approved language | May 2, 2026  |
-| 13 | [Fraud Finder](./projects/13-fraud-finder/)                             | 3     | Public-data scraper + agent mapping links between Illinois politicians, newly formed LLCs, and state contract awards            | May 2, 2026  |
 | 14 | [Claude Audit](./projects/14-claude-audit/)                             | 3     | Python script to audit and clean up a computer's file system using AI                                                          | May 7, 2026  |
 | 15 | [Family Flow App](./projects/15-family-flow-app/)                       | 3     | Personal app: shared calendar aggregation, grocery store hidden API integration (via Claude Code), financial dashboard, Plaid   | Mar 2026     |
 | 16 | [Wacker Advisors OS](./projects/16-wacker-advisors-os/)                 | 3     | Full AI-powered operating system for a one-man outsourced CFO/CCO/COO firm. Every workflow automated or AI-assisted            | Mar 2026     |
@@ -212,7 +211,6 @@ A build-every-week record. The detail lives in each project page; this is the ca
 
 **Month 3 — Tools & Agents (May 2026)**
 - Parish Bookkeeping: stepped in as interim bookkeeper; documented 30 years of undocumented process and automated QuickBooks workflows across multiple entities.
-- Fraud Finder: first agentic pipeline — scrape, parse, correlate, flag across public political and contract data.
 - Resume Builder skill and Claude Audit (AI-assisted file-system cleanup).
 - Family Flow App: shared family calendar, grocery APIs reverse-engineered via Claude Code, Plaid spending dashboard.
 - Wacker Advisors OS: the full operating system for a one-person CFO/CCO practice.
