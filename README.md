@@ -19,10 +19,7 @@ launch. Notre Dame (Mendoza) BBA/MSA; Illinois CPA.
 The moment this clicked for me wasn't a model demo. It was watching a broken, manual
 finance process get re-architected into something designed, automated, and provable — and
 realizing how much leverage lives in the *system around the work*, not the work itself.
-That same feeling (*the world just changed and I need to master it*) is what hit me when I
-started building seriously with AI. I'm relentless about delivering for the people who
-depend on me, and I won't leave a broken process alone — and now I have both the domain
-expertise and the tools to build the fix.
+I won't leave a broken process alone — and now I have both the domain expertise and the tools to build the fix.
 
 This is the intersection the whole portfolio is built on: the rigor I brought to reliable,
 auditable financial systems, now applied to designing production AI architectures —
@@ -43,7 +40,7 @@ The gap between hobbyists and people earning income from AI is architecture: how
 **Rules I'm following:**
 - Build every single week. No reading-only weeks.
 - Ship publicly. Every project gets a README and a demo.
-- Use Claude to build with Claude (yes, it's meta).
+- Use Claude to build with Claude.
 
 ---
 
@@ -137,7 +134,7 @@ full chronological index follows below.
 |---------|------------|
 | [Forge — AI-Native Fund Accounting ERP](./projects/26-forge-fund-erp/) | From-scratch fund-administration platform with an audit-grade, replayable accounting core that reproduces byte-identical. ASC 946 statements, distribution waterfalls, per-class LP reporting — built via gated Claude Code phases and adversarial multi-agent review. |
 | [PortCo Value-Creation Agent Suite](#portco-value-creation-agents) | Four PE portfolio-company agents — working capital, freight, inventory, procurement. Each pairs a deterministic diagnostic with an LLM judgment layer; the working-capital agent gates Claude-drafted outreach behind a human approval queue. Single-portco wins roll up to a fund-level EBITDA bridge (MOIC in the inventory agent). |
-| [Wacker Advisors OS](./projects/16-wacker-advisors-os/) | The operating system for an AI-native fractional CFO + CCO practice: compliance calendars, deliverable tracking, and document automation. Now running on live consultancy work. |
+| [Wacker Advisors OS](./projects/16-wacker-advisors-os/) | The operating system for an AI-native fractional CFO + CCO practice: compliance calendars, deliverable tracking, and document automation. Built and ready to deploy on client engagements. |
 | [007 Trading Agent](./projects/17-007-trading-agent/) | Multi-agent equities system: ~10 agents ingest data, debate each trade, and clear it against an independent risk veto. Built to produce a paper-trading research record. |
 | [Kalshi Calibration Study](./projects/06-kalshi-trading/) | Academic question → trading bot → research finding (draft prepared for SSRN): BTC daily binaries are well-calibrated with no directional edge. An honest negative result, treated as the product. |
 | [Business Prompt Library](./projects/04-business-prompt-library/) | Production Claude skills for CFO/CCO advisory, SEC private-fund compliance, and ASC 946 investment-company accounting. |
@@ -260,7 +257,7 @@ A build-every-week record. The detail lives in each project page; this is the ca
 - Forge (AI-native fund-accounting ERP): eleven gated phases in a few days; an audit-grade, replayable, byte-identical core. Then ASC 946 statements, distribution waterfalls, per-class LP reporting, and byte-exact seed surgery — ~580 tests with adversarial review green.
 - Kalshi calibration study written up; draft prepared for SSRN submission.
 - Content Factory: a faceless short-form-video engine — a five-role pipeline with a separate six-agent red-team review, locked eval scorecards, and weekly kill-cycle gates.
-- Wacker OS moves onto live consultancy work; website launch impending.
+- Wacker OS built out and ready to deploy on client work; website launch impending.
 
 **Month 5 — Advanced Architecture (June 2026)**
 - Sass Factory: the loops-of-loops generalized into a reusable, self-advancing software factory — gated at the merge boundary, now driving its own (human-defined) backlog through its gates. The Arc's seventh rung.
