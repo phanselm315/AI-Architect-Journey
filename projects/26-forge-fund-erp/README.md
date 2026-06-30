@@ -107,4 +107,20 @@ back were treated as bugs of the highest severity.
 three-layer "company brain." The buyer is a GP, reached through Wacker Advisors acting as
 an outsourced operational CFO; the thesis is that *reproducible-for-anyone* collapses
 audit and compliance cost toward zero, with pricing tied to provable correctness rather
-than hours. The end state is real-time continuous reconciliation — 
+than hours. The end state is real-time continuous reconciliation — the books are never
+"closed" because they're always provable.
+
+## Lessons Learned
+
+An AI can write production-grade accounting software in days — if a domain expert designs
+the decision process around it. Every hard problem so far has been an accounting judgment
+or a process-design question, not a coding question. The two-tier prompt-file workflow
+(architect sessions producing versioned prompts, implementation gated behind verification)
+is the most repeatable engineering pattern I've found in six months of building.
+
+And: adversarial review is non-negotiable. The system was confidently wrong in ways that
+only an agent tasked with *proving the demo dishonest* actually caught.
+
+---
+
+*Part of the [AI Architect Journey](../../README.md)*
