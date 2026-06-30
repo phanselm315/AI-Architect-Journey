@@ -148,12 +148,24 @@ The full chronological list — every build, in order, kept for transparency.
 ---
 
 ## Resources
-- [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-- [Interactive Prompt Tutorial (GitHub)](https://github.com/anthropics/prompt-eng-interactive-tutorial)
-- [Getting Started with the API](https://docs.anthropic.com/en/docs/initial-setup)
-- [Tool Use Guide](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview)
-- [Anthropic Academy (Skilljar)](https://anthropic.skilljar.com)
+
+**Anthropic / Claude**
 - [Building Effective Agents](https://docs.anthropic.com/en/docs/agents-and-tools/overview)
+- [Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [Tool Use Guide](https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/overview)
+- [Getting Started with the API](https://docs.anthropic.com/en/docs/initial-setup)
+- [Claude Code docs](https://docs.claude.com/en/docs/claude-code)
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io)
+- [Interactive Prompt Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) · [Anthropic Academy](https://anthropic.skilljar.com)
+
+**Multi-model & local**
+- [OpenAI Codex](https://github.com/openai/codex) — terminal coding agent
+- [Ollama](https://ollama.com) — run local / open models
+- [xAI / Grok API](https://docs.x.ai)
+- [Kimi / Moonshot AI platform](https://platform.moonshot.ai/)
+
+**Tools used in these projects**
+- [Stanford STORM](https://github.com/stanford-oval/storm) — multi-perspective knowledge curation (Project 27)
 
 ---
 
