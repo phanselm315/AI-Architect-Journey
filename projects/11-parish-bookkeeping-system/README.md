@@ -1,6 +1,6 @@
 # Parish Bookkeeping System
 
-**Status:** 🔄 Active  
+**Status:** ✅ Done  
 **Started:** Apr 2026  
 
 ## What This Is

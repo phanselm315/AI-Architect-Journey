@@ -1,6 +1,6 @@
 # Taste Interview — Voice Profile
 
-**Status:** 🔄 Active (mid-interview)  
+**Status:** ✅ Done  
 **Started:** May 28, 2026  
 
 ## What This Is
@@ -10,8 +10,7 @@ and write — so any future AI writing task can sound like me instead of like a 
 model. Based on Ruben Hassid's "I am just a text file" concept, heavily customized. The
 deliverable is a voice profile document that gets prepended to any "write as Peter" task:
 LinkedIn posts, cover letters, interview answers, peer DMs. This is my *personal*
-register, deliberately separate from the Wacker Advisors brand voice guide — I'm at a
-career inflection point, and the profile has to serve whichever path wins.
+register, deliberately separate from the Wacker Advisors brand voice guide.
 
 ## Architecture
 
@@ -32,9 +31,8 @@ red flags. The mechanics that make it work:
 ## Key Decisions
 
 **Personal register first, brand voice deferred.** The original prompt anchored on Wacker
-Advisors. I rewrote the grounding around my full career instead, so the profile works for
-both the build-the-firm path and the in-house path. A second pass for the firm voice can
-come later.
+Advisors. I rewrote the grounding around my full career instead, so the profile is
+portable across any context I write in. A dedicated brand-voice pass can come later.
 
 **Customize before running.** Eight modifications to the generic prompt before question
 one — checkpointing, tagging, follow-up rules, tone calibration ("senior peer, not
@@ -48,9 +46,9 @@ style guide would have enshrined those; an interview with drafting exercises and
 samples exposed them. By question 30 it had pinned over ten hard rules I would never have
 articulated unprompted, several confirmed across multiple writing samples.
 
-After a pause around question 38, the interview resumed and now sits around question 80
-of 100 (June 5). The checkpoint design did exactly what it was built for — picking back
-up cost nothing. Final compilation of the profile is the remaining work.
+After a pause around question 38, the interview resumed and ran to completion in
+mid-June 2026, with the voice profile compiled and now in use. The checkpoint design did
+exactly what it was built for — picking back up after the pause cost nothing.
 
 ---
 

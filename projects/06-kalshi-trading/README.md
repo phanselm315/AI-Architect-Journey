@@ -68,6 +68,8 @@ interest — will at best match a market that already prices all of that in, plu
 flow and fresh information the model never sees. Beating an efficient market needs an
 informational edge, not a better curve fit.
 
+Multi-model by necessity. Claude was reluctant to help optimize for trading profit, so I wrote the strategy scripts with Grok instead — and when Grok couldn't write files, I hand-ported its code by copy-paste, the same way a lot of self-taught coders get started from forums and how-to threads. Using the model that fits the task — and being willing to be the integration layer between them — was part of the build.
+
 ---
 
 *Part of the [AI Architect Journey](../../README.md)*

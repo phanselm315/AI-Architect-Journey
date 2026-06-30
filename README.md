@@ -27,7 +27,7 @@ Four operational-finance diagnostics, each pairing a deterministic engine with a
 The operating system for a one-person AI-native CFO/CCO practice — compliance calendars, deliverable tracking, document automation, with the recurring judgment encoded as rules. The firm's operating model, made executable.
 
 **[007 — Multi-Agent Equities Research](./projects/17-007-trading-agent/)**
-An investment committee rebuilt as a multi-agent system: ~10 agents argue the call, an independent risk agent can veto it. Separation of duties as design — the same reason finance splits who approves from who executes. Produces a paper-trading research record.
+A working clone of the published *TradingAgents: Multi-Agents LLM Financial Trading Framework* (arXiv [2412.20138](https://arxiv.org/abs/2412.20138)), rebuilt from scratch on the native Anthropic SDK: ~10 agents argue each call and an independent risk agent can veto it. Separation of duties as design — the same reason finance splits who approves from who executes. Produces a paper-trading research record.
 
 **[Kalshi Calibration Study](./projects/06-kalshi-trading/)**
 Took a published trading-strategy paper, re-ran its methodology on the latest model, and backtested to see whether a stronger model changed the result — a 1,274-market study. It didn't: the markets are well-calibrated, with no directional edge. Written up for SSRN. The willingness to test the claim and report the negative is the whole discipline — in trading and in controllership.

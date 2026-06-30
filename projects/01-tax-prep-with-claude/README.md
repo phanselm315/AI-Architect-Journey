@@ -47,7 +47,7 @@ passed. Everything else in this portfolio traces back to that.
 
 The co-pilot pattern stuck. I use the same shape for legal questions, accounting
 research, and any judgment call where I want a second pair of eyes that's faster than a
-human and disciplined enough to push back.
+human and disciplined enough to push back. And it's not just Claude — I cross-check against other LLMs when a call is close; different models surface different blind spots.
 
 ---
 
