@@ -60,7 +60,7 @@ Three builds carry the thesis. Each runs on synthetic or anonymized data with pr
 
 **Approach.** The firm's operating model made executable — compliance calendars, deliverable tracking, document automation, with the recurring judgment encoded as rules. Crucially, it brings in dedicated domain skills: RegPartner (SEC private-funds compliance) and InvCoGAAP (ASC 946 investment-company accounting), putting hard regulatory and technical-accounting expertise directly into the system.
 
-**Result.** Software I run my own practice on. I build what I actually use.
+**Result.** Software I would run my own practice on. I build what I'd actually use.
 
 **Browse every build — including earlier and personal projects — in [`projects/`](./projects/).**
 
