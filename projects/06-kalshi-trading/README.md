@@ -50,8 +50,7 @@ overfitting until a backtest looks good.
 
 The write-up was submitted in June 2026:
 
-> **"Are Bitcoin Daily Binary Prediction Markets Efficient? Calibration Evidence from
-> 1,274 Settled Kalshi Contracts and a Live Out-of-Sample Trading Experiment"**
+> **"Kalshi BTC Binary Market Efficiency"**
 
 Full circle: the project that started as an academic research question ends as an
 academic paper — with a live trading bot in the middle proving the answer.
