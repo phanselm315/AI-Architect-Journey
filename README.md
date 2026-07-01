@@ -62,7 +62,13 @@ Three builds carry the thesis. Each runs on synthetic or anonymized data with pr
 
 **Result.** Software I would run my own practice on. I build what I'd actually use.
 
-**Browse every build — including earlier and personal projects — in [`projects/`](./projects/).**
+---
+
+<div align="center">
+
+### Browse every build — including earlier and personal projects — in [`projects/`](./projects/)
+
+</div>
 
 ---
 

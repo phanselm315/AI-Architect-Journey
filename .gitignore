@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Node
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Output files
+*.pdf
+*.xlsx
+scraped.json
+summary.json
+
+# Local working drafts (not for public portfolio)
+README_BACKUP_*.md
+README_DRAFT_*.md
+
+# Junk / temp
+__sizetest__.txt
+*.zip
