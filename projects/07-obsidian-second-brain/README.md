@@ -70,4 +70,4 @@ of content landing through early June 2026.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

@@ -16,7 +16,7 @@ Finance engineering sits between finance transformation and software engineering
 
 Finance transformation knows *why* a finance organization should work a certain way — where truth should live, what evidence an accounting event needs, who approves what, how a close survives an audit. But it stops at slideware and process maps. It usually hands the operating model to someone else to build or run with.
 
-Software engineering can build anything, but doesn't carry the operating model. It ships features, not controllership.
+Software engineering can build the system, but doesn't carry the operating model. It delivers features, not the controls and judgment finance runs on.
 
 A finance engineer designs the operating model **and** encodes it into software. I take the institutional judgment that normally lives in a senior controller's head — the rules, the controls, the "we don't book it until X" — and make it executable, replayable, and auditable.
 

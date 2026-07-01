@@ -123,4 +123,4 @@ only an agent tasked with *proving the demo dishonest* actually caught.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

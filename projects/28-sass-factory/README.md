@@ -70,4 +70,4 @@ of shipping something unchecked. Same lesson as Forge, one level up — proof is
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

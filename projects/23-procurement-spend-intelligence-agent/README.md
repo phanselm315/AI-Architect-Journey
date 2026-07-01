@@ -89,4 +89,4 @@ lines in a PE portfolio.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

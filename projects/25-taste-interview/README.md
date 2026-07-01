@@ -52,4 +52,4 @@ exactly what it was built for — picking back up after the pause cost nothing.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

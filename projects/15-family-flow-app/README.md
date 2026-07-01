@@ -52,4 +52,4 @@ feedback. If something is confusing or broken, you hear about it immediately.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

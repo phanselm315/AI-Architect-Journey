@@ -80,4 +80,4 @@ real adapter, not just an in-house stand-in.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

@@ -51,4 +51,4 @@ well after the first version handles 95% after ten real uses, if you update it a
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

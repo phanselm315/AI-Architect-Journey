@@ -70,4 +70,4 @@ Multi-model by necessity. Claude was reluctant to help optimize for trading prof
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

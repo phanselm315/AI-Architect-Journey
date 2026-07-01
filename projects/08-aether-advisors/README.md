@@ -42,4 +42,4 @@ and workflow design — not the models themselves.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

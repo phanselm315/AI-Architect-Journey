@@ -46,4 +46,4 @@ the data extraction layer.** The AI part is fast. The web part is where projects
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*

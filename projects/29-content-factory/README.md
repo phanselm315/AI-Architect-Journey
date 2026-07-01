@@ -50,4 +50,4 @@ before I get attached to it.
 
 ---
 
-*Part of the [AI Architect Journey](../../README.md)*
+*Part of [Finance Engineering](../../README.md)*
